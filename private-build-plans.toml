@@ -1,0 +1,25 @@
+[buildPlans.IosevkaCustom]
+family = "Iosevka Custom"
+spacing = "fontconfig-mono"
+serifs = "slab"
+noCvSs = true
+exportGlyphNames = false
+noLigation = true
+
+  [buildPlans.IosevkaCustom.variants]
+  inherits = "ss17"
+
+    [buildPlans.IosevkaCustom.variants.design]
+    seven = "straight-serifless-crossbar"
+    zero = "dotted"
+    l = "serifed"
+
+[buildPlans.IosevkaCustom.widths.Condensed]
+shape = 500
+menu = 3
+css = "condensed"
+
+[buildPlans.IosevkaCustom.widths.Normal]
+shape = 600
+menu = 5
+css = "normal"
